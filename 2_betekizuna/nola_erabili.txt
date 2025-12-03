@@ -1,0 +1,10 @@
+Route objektuarekin sortzen da ruta guztiak.
+
+Hauek egiten ditu Bilaketarentzat
+
+Hurrengo funtzioarekin egiten du bilaketarentzat menu osoa:
+Route emptyRoute = new Route();
+        SearchMenu sm = new SearchMenu(emptyRoute.createRoutes());
+
+//Hurrengo funtzioa deitzen du menua eta hortik deitzen dira funtzio guztiak behar bezala bilaketa menua ondo egiteko
+sm.searchEverything();
